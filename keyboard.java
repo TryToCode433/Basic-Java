@@ -14,6 +14,7 @@ class keyboard{
 		String str = keyB.readLine();
 		
 		int num = Integer.parseInt(str);
+//		double doub = Double.parseDouble(str);
 		
 		System.out.println("Putted\t" + num );
 	}
