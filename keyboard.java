@@ -18,6 +18,6 @@ class keyboard{
 		int num1 = Integer.parseInt(str1);
 //		double doub = Double.parseDouble(str);
 		
-		System.out.println("Sum\t" + (num + num1) );
+		System.out.println("Sum\t" + (num + num1) + "");
 	}
 }
