@@ -1,19 +1,28 @@
+/***********
+@File:  	Sample6.java
+@Author:  HoangTrongVu
+-get 3 number from Keybard
+-take Sum f them
+-print out 
+************/
 
 import java.io.*;
 
 class Sample6{
 	public static void main(String[] args) throws IOException{
-		System.out.println("整数を２つ入力してください");
+		System.out.println("整数を3つ入力してください");
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		String str1 = br.readLine();
 		String str2 = br.readLine();
+		String str3 = br.readLine();
 		
-		int num1 = Integer.parseInt(str1);
-		int num2 = Integer.parseInt(str2);
+		int sum = 0;
+		sum += Integer.parseInt(str1);
+		sum += Integer.parseInt(str2);
+		sum += Integer.parseInt(str3);
 		
-		System.out.println("最初に"+ num1+"が入力されました。");
-		System.out.println("次に"+ num2+"が入力されました。");
+		System.out.println("3つの数の合計は "+ sum+" です。");
 	}
 }
