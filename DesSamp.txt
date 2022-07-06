@@ -8,7 +8,10 @@ by HoangTrongVu
 */
 
 /***********
-@File:  	
-@Author:  HoangTrongVu
+@File:  	/
+@Author: 21TE433 HoangTrongVu
 
 ************/
+
+
+char ans = (str = 'e') ? 'Y' : 'N'
